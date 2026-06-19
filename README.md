@@ -1,16 +1,122 @@
-# React + Vite
+# 📸 Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Instagram clone built with React and Vite that replicates core Instagram UI features including stories, posts, and user navigation — powered by JSON Server as a mock backend.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📖 Browse Posts feed with like and comment UI
+- 🎞️ View and navigate Stories with URL params
+- 🔗 React Router DOM for smooth page navigation
+- 🗄️ JSON Server as mock REST API backend
+- 🖼️ Images served via public/assets/ folder
+- 🧩 Clean component-based architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- React Router DOM
+- JSON Server
+- HTML5 & CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📦 Installation & How to Run
+
+### Step 1 — Clone the repository
+```bash
+git clone https://github.com/priyadharshiniannadurai413-dev/Instagram-clone.git
+```
+
+### Step 2 — Navigate into the project folder
+```bash
+cd Instagram-clone
+```
+
+### Step 3 — Install dependencies
+```bash
+npm install
+```
+
+### Step 4 — Start JSON Server (mock backend)
+```bash
+npx json-server --watch data/Db.json --port 3000
+```
+
+### Step 5 — Start the React app (open a new terminal)
+```bash
+npm run dev
+```
+
+### Step 6 — Open in browser
+```
+http://localhost:5173
+```
+
+---
+
+## ⚠️ Important Notes
+
+- Make sure **Node.js** is installed on your system
+- Run **JSON Server and React app in separate terminals**
+- JSON Server runs on `http://localhost:3000`
+- React app runs on `http://localhost:5173`
+
+---
+
+## 🗂️ Folder Structure
+
+```
+Instagram-clone/
+├── public/
+│   └── assets/
+│       └── images/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── config.js
+├── data/
+│   └── Db.json
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🖼️ How It Works
+
+1. JSON Server serves mock data (posts, stories, users) from `Db.json`
+2. React fetches data from JSON Server via API calls
+3. React Router DOM handles navigation between pages
+4. Stories are navigated using URL params
+5. Images are loaded from `public/assets/` folder
+
+---
+
+## 💡 Key Concepts Used
+
+- React Components & Props
+- React Router DOM (createBrowserRouter, RouterProvider)
+- URL Params for Story Navigation
+- JSON Server as Mock REST API
+- fetch / Axios for API calls
+- CSS3 for responsive UI
+
+---
+
+## 👩‍💻 Developed By
+
+Priyadharshini A — ECE Graduate | Aspiring Front-End Developer
+
+---
+
+## 📌 Project Status
+
+🚧 Completed
