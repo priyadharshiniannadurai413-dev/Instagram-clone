@@ -1,0 +1,152 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "priya_photography",
+        "profile_pic": "/assets/baby.jpg"
+      },
+      "image": "/assets/download.jpg",
+      "caption": "Golden hour in the mountains 🌄 #nature #travel",
+      "likes": 142,
+      "comments": [
+        {
+          "user": "rahul_dev",
+          "comment": "Absolutely stunning! 😍"
+        },
+        {
+          "user": "ananya_art",
+          "comment": "Where is this place? 😮"
+        }
+      ],
+      "timestamp": "2024-06-01T07:00:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "rahul_dev",
+        "profile_pic": "/assets/baby.jpg"
+      },
+      "image": "/assets/god_3.jpg",
+      "caption": "Late night coding sessions hit different ☕💻 #developer #coding",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "deepa_travels",
+          "comment": "Same! Can't sleep without finishing the feature 😂"
+        },
+        {
+          "user": "priya_photography",
+          "comment": "Coffee is the real MVP ☕"
+        }
+      ],
+      "timestamp": "2024-06-02T21:00:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "ananya_art",
+        "profile_pic": "/assets/god.jpg"
+      },
+      "image": "/assets/nature.jpg",
+      "caption": "New watercolor piece finished! 🎨 What do you think? #art #illustration",
+      "likes": 215,
+      "comments": [
+        {
+          "user": "priya_photography",
+          "comment": "This is gorgeous 🔥"
+        },
+        {
+          "user": "karthik_fitness",
+          "comment": "So talented!"
+        },
+        {
+          "user": "rahul_dev",
+          "comment": "Can I use this as my wallpaper? 😄"
+        }
+      ],
+      "timestamp": "2024-06-03T10:00:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "priya_photography",
+    "profile_pic": "/assets/baby.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "priya_photography",
+      "profile_pic": "/assets/baby.jpg"
+    },
+    {
+      "id": "102",
+      "username": "rahul_dev",
+      "profile_pic": "/assets/god_2.jpg"
+    },
+    {
+      "id": "103",
+      "username": "ananya_art",
+      "profile_pic": "/assets/god.jpg"
+    },
+    {
+      "id": "104",
+      "username": "thanya_art",
+      "profile_pic": "/assets/god.jpg"
+    },
+    {
+      "id": "105",
+      "username": "aarthi_art",
+      "profile_pic": "/assets/god.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "priya_photography",
+        "profile_pic": "/assets/baby.jpg"
+      },
+      "image": "/assets/download.jpg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "rahul_dev",
+        "profile_pic": "/assets/god_2.jpg"
+      },
+      "image": "/assets/god_3.jpg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "ananya_art",
+        "profile_pic": "/assets/baby.jpg"
+      },
+      "image": "/assets/nature.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "101",
+      "username": "priya_photography",
+      "profile_pic": "/assets/baby.jpg"
+    },
+    {
+      "id": "103",
+      "username": "ananya_art",
+      "profile_pic": "/assets/baby.jpg"
+    },
+    {
+      "id": "lempC4u2SV0",
+      "username": "rahul_dev"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
